@@ -55,6 +55,7 @@ body {
 
 .link {
     text-decoration: none;
+    color: rgb(67, 67, 233);
 }
 
 /* MAIN */
@@ -80,18 +81,31 @@ main .row {
 
 main .col {
     padding: var(--base-space);
+    padding-bottom: calc(var(--base-space) * 2);
 }
 
 /* CARDS */
-main .card {
+.card {
     background-color: black;
+    box-shadow: 0px 0px 10px 3px rgba(158,144,158,1);
 }
 
-main .card .card__img {
+.card .card__img {
     height: 100px;
 }
 
-main .card .card__text {
+.card .card__text {
+    padding: var(--base-space) calc(var(--base-space) / 2);
     color: white;
-    padding: var(--base-space);
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+.card .card__name {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.card .card__role {
+    margin: 5px 0;
 }
