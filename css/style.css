@@ -3,6 +3,14 @@
     --base-space: 15px;
 }
 
+/* DEBUG */
+.debug {
+    min-height: 200px;
+    padding: 20px;
+    background-color: aquamarine;
+    border: 1px dotted blue;
+}
+
 /* RESET */
 * {
     margin: 0;
@@ -27,6 +35,19 @@ body {
     margin: 0 auto;
 }
 
+.float-l {
+    float: left;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.col-30 {   
+    width: calc(100% / 3);
+}
 
 /* MAIN */
 main .container {
@@ -42,3 +63,7 @@ main h1 {
 main p {
     padding: var(--base-space) 0;
 }
+
+/* main .row {
+
+} */
