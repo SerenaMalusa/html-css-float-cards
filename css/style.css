@@ -39,6 +39,10 @@ body {
     float: left;
 }
 
+.float-r {
+    float: right;
+}
+
 .clearfix::after {
     content: '';
     display: block;
@@ -47,6 +51,10 @@ body {
 
 .col-30 {   
     width: calc(100% / 3);
+}
+
+.link {
+    text-decoration: none;
 }
 
 /* MAIN */
@@ -64,6 +72,20 @@ main p {
     padding: var(--base-space) 0;
 }
 
-/* main .row {
+main .row {
+ margin-top: var(--base-space);
+}
 
-} */
+/* CARDS */
+main .card {
+    background-color: black;
+}
+
+main .card .card__img {
+    height: 100px;
+}
+
+main .card .card__text {
+    color: white;
+    padding: var(--base-space);
+}
