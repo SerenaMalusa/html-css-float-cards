@@ -59,7 +59,8 @@ body {
 
 /* MAIN */
 main .container {
-    text-align: center;
+    /* text-align: center; */
+    padding: var(--base-space);
 }
 
 main h1 {
@@ -74,6 +75,11 @@ main p {
 
 main .row {
  margin-top: var(--base-space);
+ margin-left: calc(-1 * var(--base-space));
+}
+
+main .col {
+    padding: var(--base-space);
 }
 
 /* CARDS */
