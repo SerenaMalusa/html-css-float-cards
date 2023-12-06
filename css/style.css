@@ -75,8 +75,8 @@ main p {
 }
 
 main .row {
- margin-top: var(--base-space);
- margin-left: calc(-1 * var(--base-space));
+    margin-top: var(--base-space);
+    margin-left: calc(-1 * var(--base-space));
 }
 
 main .col {
